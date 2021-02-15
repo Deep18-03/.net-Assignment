@@ -1,0 +1,6 @@
+C:\Users\ASUS\source\repos\SBS.WebApi\SBS.Models\bin\Debug\SBS.Models.dll
+C:\Users\ASUS\source\repos\SBS.WebApi\SBS.Models\bin\Debug\SBS.Models.pdb
+C:\Users\ASUS\source\repos\SBS.WebApi\SBS.Models\obj\Debug\SBS.Models.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\SBS.WebApi\SBS.Models\obj\Debug\SBS.Models.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\SBS.WebApi\SBS.Models\obj\Debug\SBS.Models.dll
+C:\Users\ASUS\source\repos\SBS.WebApi\SBS.Models\obj\Debug\SBS.Models.pdb
