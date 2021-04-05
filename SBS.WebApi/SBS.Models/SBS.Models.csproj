@@ -41,8 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BookingVM.cs" />
+    <Compile Include="CustomerVM.cs" />
+    <Compile Include="DealerVM.cs" />
+    <Compile Include="MechanicVM.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Customer.cs" />
+    <Compile Include="ServiceVM.cs" />
+    <Compile Include="UserLogin.cs" />
+    <Compile Include="VehicleVM.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

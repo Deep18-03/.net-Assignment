@@ -59,10 +59,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interface\IAdminManager.cs" />
-    <Compile Include="Interface\IUserManager.cs" />
+    <Compile Include="Class\CustomerManager.cs" />
+    <Compile Include="Class\DealerManager.cs" />
+    <Compile Include="Class\MechanicManager.cs" />
+    <Compile Include="Class\VehicleManager.cs" />
+    <Compile Include="Interface\ICustomerManager.cs" />
+    <Compile Include="Interface\IDealerManager.cs" />
+    <Compile Include="Interface\IMechanicmanager.cs" />
+    <Compile Include="Interface\IVehicleManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserManager.cs" />
+    <Compile Include="UnityHelper\UnityHelperRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SBS.DAL\SBS.DAL.csproj">
@@ -77,5 +83,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,69 @@
+﻿@model IEnumerable<SBS.Models.CustomerVM>
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<h2>Index</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(x => x.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(x => x.Address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(x => x.Zipcode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(x => x.EmailId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(x => x.MobileNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(x => x.City)
+        </th>
+        <th>
+            @Html.DisplayNameFor(x => x.State)
+        </th>
+        <th>
+            @Html.DisplayNameFor(x => x.Password)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(x => item.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(x => item.Address)
+    </td>
+    <td>
+        @Html.DisplayFor(x => item.Zipcode)
+    </td>
+    <td>
+        @Html.DisplayFor(x => item.EmailId)
+    </td>
+    <td>
+        @Html.DisplayFor(x => item.MobileNo)
+    </td>
+    <td>
+        @Html.DisplayFor(x => item.City)
+    </td>
+    <td>
+        @Html.DisplayFor(x => item.State)
+    </td>
+    <td>
+        @Html.DisplayFor(x => item.Password)
+    </td>
+    <td>
+   
+    </td>
+</tr>
+    }
+    </table>

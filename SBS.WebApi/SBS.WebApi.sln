@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBS.WebApi", "SBS.WebApi\SBS.WebApi.csproj", "{8DBE4870-B17F-49AD-84D8-DE99B8FC0D97}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBS.BAL", "SBS.BAL\SBS.BAL.csproj", "{39989109-08E4-4F22-8513-E660B23B8252}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBS.Models", "SBS.Models\SBS.Models.csproj", "{141EA617-9151-4213-848E-BC88CF32C078}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBS.DAL", "SBS.DAL\SBS.DAL.csproj", "{EF921705-0B4A-4A9D-85BB-08E58BB940BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBookingSystem", "ServiceBookingSystem\ServiceBookingSystem.csproj", "{BA930CF7-BE68-42B5-B6D1-25F951B1E569}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8DBE4870-B17F-49AD-84D8-DE99B8FC0D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8DBE4870-B17F-49AD-84D8-DE99B8FC0D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8DBE4870-B17F-49AD-84D8-DE99B8FC0D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8DBE4870-B17F-49AD-84D8-DE99B8FC0D97}.Release|Any CPU.Build.0 = Release|Any CPU
 		{39989109-08E4-4F22-8513-E660B23B8252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{39989109-08E4-4F22-8513-E660B23B8252}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39989109-08E4-4F22-8513-E660B23B8252}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{EF921705-0B4A-4A9D-85BB-08E58BB940BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF921705-0B4A-4A9D-85BB-08E58BB940BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF921705-0B4A-4A9D-85BB-08E58BB940BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA930CF7-BE68-42B5-B6D1-25F951B1E569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA930CF7-BE68-42B5-B6D1-25F951B1E569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA930CF7-BE68-42B5-B6D1-25F951B1E569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA930CF7-BE68-42B5-B6D1-25F951B1E569}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

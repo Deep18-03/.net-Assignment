@@ -53,27 +53,50 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\BookingRepository.cs" />
+    <Compile Include="Classes\CustomerRepository.cs" />
+    <Compile Include="Classes\DealerRepository.cs" />
+    <Compile Include="Classes\MechanicRepositoy.cs" />
+    <Compile Include="Classes\VehicleRepository.cs" />
+    <Compile Include="Database\AppointBooking.cs">
+      <DependentUpon>SBSModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Database\Customer.cs">
-      <DependentUpon>SBSContext.tt</DependentUpon>
+      <DependentUpon>SBSModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Database\SBSContext.Context.cs">
+    <Compile Include="Database\Dealer.cs">
+      <DependentUpon>SBSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Mechanic.cs">
+      <DependentUpon>SBSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\SBSModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SBSContext.Context.tt</DependentUpon>
+      <DependentUpon>SBSModel.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Database\SBSContext.cs">
+    <Compile Include="Database\SBSModel.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SBSContext.tt</DependentUpon>
+      <DependentUpon>SBSModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Database\SBSContext.Designer.cs">
+    <Compile Include="Database\SBSModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SBSContext.edmx</DependentUpon>
+      <DependentUpon>SBSModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Service.cs">
+      <DependentUpon>SBSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Vehicle.cs">
+      <DependentUpon>SBSModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository\IUserRepository.cs" />
-    <Compile Include="Repository\UserRepository.cs" />
+    <Compile Include="Repository\IBookingRepository.cs" />
+    <Compile Include="Repository\ICustomerRepository.cs" />
+    <Compile Include="Repository\IDealerRepository.cs" />
+    <Compile Include="Repository\IMechanicRepository.cs" />
+    <Compile Include="Repository\IVehicleRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SBS.Models\SBS.Models.csproj">
@@ -82,32 +105,30 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EntityDeploy Include="Database\SBSContext.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>SBSContext.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.Config" />
-    <None Include="Database\SBSContext.edmx.diagram">
-      <DependentUpon>SBSContext.edmx</DependentUpon>
+    <EntityDeploy Include="Database\SBSModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>SBSModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Database\SBSModel.edmx.diagram">
+      <DependentUpon>SBSModel.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Database\SBSContext.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>SBSContext.Context.cs</LastGenOutput>
-      <DependentUpon>SBSContext.edmx</DependentUpon>
-    </Content>
-    <Content Include="Database\SBSContext.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>SBSContext.edmx</DependentUpon>
-      <LastGenOutput>SBSContext.cs</LastGenOutput>
-    </Content>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Content Include="Database\SBSModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SBSModel.edmx</DependentUpon>
+      <LastGenOutput>SBSModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Database\SBSModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SBSModel.edmx</DependentUpon>
+      <LastGenOutput>SBSModel.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

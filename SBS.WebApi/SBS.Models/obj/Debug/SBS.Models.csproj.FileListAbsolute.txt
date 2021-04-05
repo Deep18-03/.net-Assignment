@@ -4,3 +4,9 @@ C:\Users\ASUS\source\repos\SBS.WebApi\SBS.Models\obj\Debug\SBS.Models.csprojAsse
 C:\Users\ASUS\source\repos\SBS.WebApi\SBS.Models\obj\Debug\SBS.Models.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\source\repos\SBS.WebApi\SBS.Models\obj\Debug\SBS.Models.dll
 C:\Users\ASUS\source\repos\SBS.WebApi\SBS.Models\obj\Debug\SBS.Models.pdb
+C:\Users\deep.shah\Downloads\.net-Assignment-master\SBS.WebApi\SBS.Models\obj\Debug\SBS.Models.csprojAssemblyReference.cache
+C:\Users\deep.shah\Downloads\.net-Assignment-master\SBS.WebApi\SBS.Models\obj\Debug\SBS.Models.csproj.CoreCompileInputs.cache
+C:\Users\deep.shah\Downloads\.net-Assignment-master\SBS.WebApi\SBS.Models\obj\Debug\SBS.Models.dll
+C:\Users\deep.shah\Downloads\.net-Assignment-master\SBS.WebApi\SBS.Models\obj\Debug\SBS.Models.pdb
+C:\Users\deep.shah\Downloads\.net-Assignment-master\SBS.WebApi\SBS.Models\bin\Debug\SBS.Models.dll
+C:\Users\deep.shah\Downloads\.net-Assignment-master\SBS.WebApi\SBS.Models\bin\Debug\SBS.Models.pdb
